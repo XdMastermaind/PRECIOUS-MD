@@ -191,15 +191,12 @@
       "description": "change it to -same- if you want to resend deleted message in same chat",
       "required": false,
       "value": "log"
+            }
     },
-
-},
-
-     "buildpacks": [
+    "buildpacks": [
         {
             "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
         }
      ],
   "stack": "heroku-24"
 }
-  
